@@ -11,7 +11,7 @@ public class TiendaHerrero {
         double oroDisponible = sc.nextDouble();
 
         System.out.print("Precio de la espada: ");
-        double precioEspada = sc.nextInt();
+        double precioEspada = sc.nextDouble();
 
         System.out.print("¿Cuántas espadas quieres? ");
         int cantidad = sc.nextInt();
@@ -22,7 +22,7 @@ public class TiendaHerrero {
         String nombreArma = sc.nextLine();
 
         double costoTotal = precioEspada * cantidad;
-        double oroRestante = costoTotal - oroDisponible;
+        double oroRestante = oroDisponible - costoTotal;
 
         System.out.println("Compraste " + cantidad + " x " + nombreArma);
         System.out.println("Gastaste: " + costoTotal);
