@@ -1,4 +1,4 @@
-package codigodragon;
+package CodigoNiveles;
 
 public class BolsaDeOro {
     public static void main(String[] args) {

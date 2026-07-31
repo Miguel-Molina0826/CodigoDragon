@@ -1,4 +1,4 @@
-package codigodragon;
+package CodigoNiveles;
 
 public class Heroe {
     public String nombre;

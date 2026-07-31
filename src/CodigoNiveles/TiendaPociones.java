@@ -1,4 +1,4 @@
-package codigodragon;
+package CodigoNiveles;
 import java.util.Scanner;
 public class TiendaPociones {
     public static void main(String[] args) {
