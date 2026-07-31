@@ -2,7 +2,7 @@ package codigodragon;
 
 import java.util.Scanner;
 
-public class BugScanner {
+public class BugDecisiones {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
